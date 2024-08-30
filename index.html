@@ -58,6 +58,8 @@ div.csl-indent {
 <link href="relatorio_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="relatorio_files/libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="relatorio_files/libs/quarto-contrib/bookup_fonts_gwf-0.0/fonts-embed.css" rel="stylesheet">
+<link href="relatorio_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="relatorio_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 
 
 </head>
@@ -66,13 +68,13 @@ div.csl-indent {
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
     <h2 id="toc-title">Índice</h2>
    
   <ul>
   <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução">Introdução</a></li>
   <li><a href="#atividades" id="toc-atividades" class="nav-link" data-scroll-target="#atividades">Atividades</a>
-  <ul>
+  <ul class="collapse">
   <li><a href="#teoria-2003---2404" id="toc-teoria-2003---2404" class="nav-link" data-scroll-target="#teoria-2003---2404">Teoria (20/03 - 24/04)</a></li>
   <li><a href="#mancha-de-inundação-0307---1007" id="toc-mancha-de-inundação-0307---1007" class="nav-link" data-scroll-target="#mancha-de-inundação-0307---1007">Mancha de Inundação (03/07 - 10/07)</a></li>
   <li><a href="#mapa-de-elevação-e-declividade-1707---2407" id="toc-mapa-de-elevação-e-declividade-1707---2407" class="nav-link" data-scroll-target="#mapa-de-elevação-e-declividade-1707---2407">Mapa de Elevação e Declividade (17/07 - 24/07)</a></li>
@@ -137,7 +139,7 @@ div.csl-indent {
 <section id="teoria-2003---2404" class="level2">
 <h2 class="anchored" data-anchor-id="teoria-2003---2404">Teoria (20/03 - 24/04)</h2>
 <p>Na primeira parte da disciplina foi feita uma discução téorica do campos da cartografia digital e suas aplicações. Foram revistos os principios de cartografia, já apresentados em disciplina anterior, e demosntrados os conceitos princiapais de cartografia com <em>escala</em>, <em>generalização</em>, <em>simbologia</em> e <em>localização</em>.</p>
-<p>Como avalização dessa parte foi realizada uma prova online e um primeiro mapa com dados do <a href="https://iede.rs.gov.br/">IEDE-RS</a> e IBGE. O mapa produzido por mim foi este: <img src="./assets/img/Layout-1.png" class="img-fluid" alt="anexo"></p>
+<p>Como avalização dessa parte foi realizada uma prova online e um primeiro mapa com dados do <a href="https://iede.rs.gov.br/">IEDE-RS</a> e IBGE. O mapa produzido por mim foi este: <img src="./assets/img/Layout-1.png" class="img-fluid"> <a href="assets/pdf/Layout.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout-1.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
 <blockquote class="blockquote">
 <p>Nesse mapa foi calculada <em>Densidade Populacional</em> de cada Setor Censitário da região do entorno do CLN-UFRGS(apresentados com losangos verdes) e a <em>Taxa de Ocupação</em> dos imóveis(apresentado em tons de laranja)</p>
 </blockquote>
@@ -150,7 +152,7 @@ div.csl-indent {
 <li><p>Identificar nas imagens de satélite qual o limite da área inundada visível da imagem. Foi escolhida uma escala e seleção de banda que garantisse o contraste entre as áreas secas e alagadas, <img src="./assets/img/Captura%20de%20tela%202024-07-10%20193509.png" class="img-fluid"></p></li>
 <li><p>Marcar pontos de referência para o calculo de nível. Foram marcados pontos ao longo da margem do rio que eram vizivelmente limites entre a água e a terra. Na imagem vemos os pontos sobre um modelo MDE. <img src="./assets/img/Captura%20de%20tela%202024-07-10%20203757.png" class="img-fluid"></p></li>
 <li><p>Interpolar nivel da água Partindo dos dados de elevação disponíveis pelo FABDEM(<span class="citation" data-cites="hawker2021">HAWKER &amp; NEAL <a href="#ref-hawker2021" role="doc-biblioref">2021</a></span>), foi interpolado pelo método de <em>Krigagem</em> qual o nivel da água em cada ponto do mapa partindo da amostragem da eleção nos pontos selecionados <img src="./assets/img/Captura%20de%20tela%202024-07-10%20210039.png" class="img-fluid"></p></li>
-<li><p>Construir a mancha de inudação Conhecendo o nível da água em cada ponto foi possivel comparar a altura do ponto, onde a elevação é menor que o nível da água foi considerado como área alagado. <img src="./assets/img/Captura%20de%20tela%202024-07-10%20211719.png" class="img-fluid"> A partir do dado foi elaborado o seguinte mapa, ainda incompleto: <img src="./assets/img/Layout.png" class="img-fluid"> <a href="./assets/pdf/Layout.pdf">PDF</a></p></li>
+<li><p>Construir a mancha de inudação Conhecendo o nível da água em cada ponto foi possivel comparar a altura do ponto, onde a elevação é menor que o nível da água foi considerado como área alagado. <img src="./assets/img/Captura%20de%20tela%202024-07-10%20211719.png" class="img-fluid"> A partir do dado foi elaborado o seguinte mapa, ainda incompleto: <img src="./assets/img/Layout.png" class="img-fluid"> <a href="./assets/pdf/Layout.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p></li>
 </ol>
 <blockquote class="blockquote">
 <p>Este mapa apresenta a <em>Mancha de Inundação Estimada</em> no município de Canoas-RS. Foram utlizadas imagens do satélite <em>Planet</em> e a mancha foi colorida de acordo com o <em>Nível da Água Estimado</em>(tons de azul)</p>
@@ -168,32 +170,32 @@ div.csl-indent {
 <p>Foram desenvolvidos alguns mapas durantes essas 3 semanas utilizando os dados que foram produzidos em conjunto com dados de outras fontes como da <em>Defesa Civil</em> e <em>Geodédia da UFRGS</em>. Os mapas todos se focaram na região da <em>Bacia Hidrográfica do Guaíba</em> e foram feitas em escala <em>1:650.000</em></p>
 <section id="mapa-de-elevação" class="level3">
 <h3 class="anchored" data-anchor-id="mapa-de-elevação">Mapa de Elevação</h3>
-<p>Utilizando os dados de elevação processados anteriormente foi produzido o seguinte mapa: <img src="./assets/img/Layout2.png" class="img-fluid"> <a href="./assets/pdf/Layout2.pdf">PDF</a></p>
+<p>Utilizando os dados de elevação processados anteriormente foi produzido o seguinte mapa: <img src="./assets/img/Layout2.png" class="img-fluid"> <a href="./assets/pdf/Layout2.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout2.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
 <blockquote class="blockquote">
 <p>Este mapa apresenta os valores de <em>Elevação</em> na região da <em>Bacia Hidrográfica do Guaíba</em>(tons de verde, amarelo e laranja), assim como seus principais <em>Corpos Hídricos</em>(área em azul) e os limites dos <em>9 Sub-Bacias</em>(linha preta) que compõem a bacia</p>
 </blockquote>
 </section>
 <section id="mapa-de-movimentos-de-massa" class="level3">
 <h3 class="anchored" data-anchor-id="mapa-de-movimentos-de-massa">Mapa de Movimentos de Massa</h3>
-<p>Utilizando os dados de <em>declividade</em> e dos <em>movimentos de massa</em> foi elaborado o seguinte mapa: <img src="./assets/img/Layout3.png" class="img-fluid"> <a href="./assets/pdf/Layout3.pdf">PDF</a></p>
+<p>Utilizando os dados de <em>declividade</em> e dos <em>movimentos de massa</em> foi elaborado o seguinte mapa: <img src="./assets/img/Layout3.png" class="img-fluid"> <a href="./assets/pdf/Layout3.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout3.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
 <blockquote class="blockquote">
 <p>Este mapa apresenta os valores de <em>Declividade</em> na mesma região (tons de azul, verde e amarelo), <em>Corpos Hídricos</em>(área em azul) e os <em>Limites das Sub-Bacias</em>(linha preta). Também apresenta os <em>Movimentos de Massa</em>(linhas vermelhas) identificadas pelos pesquisadores do <strong>LATITUDE/CEPSRM/UFRGS</strong></p>
 </blockquote>
 </section>
 <section id="mapa-da-inundação" class="level3">
 <h3 class="anchored" data-anchor-id="mapa-da-inundação">Mapa da Inundação</h3>
-<p>Utilizando os dados da <em>mancha de inundação</em> e as <em>curvas de nível</em> foi elaborado o seguinte mapa: <img src="./assets/img/Layout4-b.png" class="img-fluid"> <a href="./assets/pdf/Layout4-b.pdf">PDF</a></p>
+<p>Utilizando os dados da <em>mancha de inundação</em> e as <em>curvas de nível</em> foi elaborado o seguinte mapa: <img src="./assets/img/Layout4-b.png" class="img-fluid"> <a href="./assets/pdf/Layout4-b.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout4-b.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
 <blockquote class="blockquote">
 <p>Este mapa apresenta a <em>Curvas de Nível</em> na região(linhas amarelo), <em>Corpos Hídricos</em>(área em azul claro) e os <em>Limites das Sub-Bacias</em>(linha preta). O foco porém é na <em>Mancha de Inundação</em>(área em azul escuro) estimada pelos pesquisadores do <strong>LAGAM/CEPSRM/UFRGS</strong></p>
 </blockquote>
 </section>
 <section id="mapa-de-chuvas" class="level3">
 <h3 class="anchored" data-anchor-id="mapa-de-chuvas">Mapa de chuvas</h3>
-<p>Foi elaborado um mapa com a estimativa da chuva na região, porém me ausentei e não fiz a confecção desse mapa. Como exemplo está o mapa produzido pela aluna <em>Juliana Mayer de Souza</em> <img src="./assets/img/Layout_mapa4_chuva.png" class="img-fluid"></p>
+<p>Foi elaborado um mapa com a estimativa da chuva na região, porém me ausentei e não fiz a confecção desse mapa. Como exemplo está o mapa produzido pela aluna <em>Juliana Mayer de Souza</em> <img src="./assets/img/Layout_mapa4_chuva.png" class="img-fluid"> <a href="./assets/img/Layout_mapa4_chuva.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
 </section>
 <section id="mapa-de-impacto" class="level3">
 <h3 class="anchored" data-anchor-id="mapa-de-impacto">Mapa de Impacto</h3>
-<p>Por fim foi feito um mapa contendo dados de impactos da inundação na região. Foram utilizados dados do <a href="https://s2id.mi.gov.br/paginas/index.xhtml">S2id</a> do Governo Federal. O meu mapa foi sobre o impacto material na região: <img src="./assets/img/Layout5-1.png" class="img-fluid"> <a href="./assets/pdf/Layout5.pdf">PDF</a></p>
+<p>Por fim foi feito um mapa contendo dados de impactos da inundação na região. Foram utilizados dados do <a href="https://s2id.mi.gov.br/paginas/index.xhtml">S2id</a> do Governo Federal. O meu mapa foi sobre o impacto material na região: <img src="./assets/img/Layout5-1.png" class="img-fluid"> <a href="./assets/pdf/Layout5.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout5-1.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
 <blockquote class="blockquote">
 <p>Este mapa apresenta a <em>Mancha de Inundação</em>(área em roxo) junto do <em>Prejuízo Material Estimado</em>(tons de amarelo e vermelho) para cada município a partir dos dados do <em>S2id</em></p>
 </blockquote>
