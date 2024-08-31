@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Joel Schutz">
+<meta name="author" content="Joel Silva Schutz - joel.schutz@ufrgs.br">
 <meta name="description" content="Cartografia Temática e Digital">
 
 <title>Relatório</title>
@@ -105,16 +105,23 @@ div.csl-indent {
   </div>
 </div>
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor</div>
+  <div class="quarto-title-meta-heading">Afiliação</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Joel Silva Schutz - joel.schutz@ufrgs.br </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            UFRGS - Litoral Norte
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor</div>
-    <div class="quarto-title-meta-contents">
-             <p>Joel Schutz </p>
-          </div>
-  </div>
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Data de Publicação</div>
     <div class="quarto-title-meta-contents">
@@ -138,8 +145,8 @@ div.csl-indent {
 <h1>Atividades</h1>
 <section id="teoria-2003---2404" class="level2">
 <h2 class="anchored" data-anchor-id="teoria-2003---2404">Teoria (20/03 - 24/04)</h2>
-<p>Na primeira parte da disciplina foi feita uma discução téorica do campos da cartografia digital e suas aplicações. Foram revistos os principios de cartografia, já apresentados em disciplina anterior, e demosntrados os conceitos princiapais de cartografia com <em>escala</em>, <em>generalização</em>, <em>simbologia</em> e <em>localização</em>.</p>
-<p>Como avalização dessa parte foi realizada uma prova online e um primeiro mapa com dados do <a href="https://iede.rs.gov.br/">IEDE-RS</a> e IBGE. O mapa produzido por mim foi este: <img src="./assets/img/Layout-1.png" class="img-fluid"> <a href="assets/pdf/Layout1.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout-1.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
+<p>Na primeira parte da disciplina foi feita uma discussão téorica do campos da cartografia digital e suas aplicações. Foram revistos os princípios de cartografia, já apresentados em disciplina anterior, e demonstrados os conceitos principais de cartografia com <em>escala</em>, <em>generalização</em>, <em>simbologia</em> e <em>localização</em>.</p>
+<p>Como avaliação dessa parte foi realizada uma prova online e um primeiro mapa com os dados do <a href="https://iede.rs.gov.br/">IEDE-RS</a> e do IBGE. O mapa produzido por mim foi este: <img src="./assets/img/Layout-1.png" class="img-fluid"> <a href="assets/pdf/Layout1.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout-1.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
 <blockquote class="blockquote">
 <p>Nesse mapa foi calculada <em>Densidade Populacional</em> de cada Setor Censitário da região do entorno do CLN-UFRGS(apresentados com losangos verdes) e a <em>Taxa de Ocupação</em> dos imóveis(apresentado em tons de laranja)</p>
 </blockquote>
@@ -150,9 +157,9 @@ div.csl-indent {
 <p>Após a paralização causada pelas inundações no estado foi apresentada uma metodologia elaborada pelo Professor para a estimativa de manchas de inudanção. Ela consiste nos seguintes passos:</p>
 <ol type="1">
 <li><p>Identificar nas imagens de satélite qual o limite da área inundada visível da imagem. Foi escolhida uma escala e seleção de banda que garantisse o contraste entre as áreas secas e alagadas, <img src="./assets/img/Captura%20de%20tela%202024-07-10%20193509.png" class="img-fluid"></p></li>
-<li><p>Marcar pontos de referência para o calculo de nível. Foram marcados pontos ao longo da margem do rio que eram vizivelmente limites entre a água e a terra. Na imagem vemos os pontos sobre um modelo MDE. <img src="./assets/img/Captura%20de%20tela%202024-07-10%20203757.png" class="img-fluid"></p></li>
-<li><p>Interpolar nivel da água Partindo dos dados de elevação disponíveis pelo FABDEM(<span class="citation" data-cites="hawker2021">HAWKER &amp; NEAL <a href="#ref-hawker2021" role="doc-biblioref">2021</a></span>), foi interpolado pelo método de <em>Krigagem</em> qual o nivel da água em cada ponto do mapa partindo da amostragem da eleção nos pontos selecionados <img src="./assets/img/Captura%20de%20tela%202024-07-10%20210039.png" class="img-fluid"></p></li>
-<li><p>Construir a mancha de inudação Conhecendo o nível da água em cada ponto foi possivel comparar a altura do ponto, onde a elevação é menor que o nível da água foi considerado como área alagado. <img src="./assets/img/Captura%20de%20tela%202024-07-10%20211719.png" class="img-fluid"> A partir do dado foi elaborado o seguinte mapa, ainda incompleto: <img src="./assets/img/Layout.png" class="img-fluid"> <a href="./assets/pdf/Layout.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p></li>
+<li><p>Marcar pontos de referência para o cálculo de nível. Foram marcados pontos ao longo da margem do rio que eram limites visíveis entre a água e a terra. Na imagem vemos os pontos sobre um modelo MDE. <img src="./assets/img/Captura%20de%20tela%202024-07-10%20203757.png" class="img-fluid"></p></li>
+<li><p>Interpolar nível da água. Partindo dos dados de elevação disponíveis pelo FABDEM(<span class="citation" data-cites="hawker2021">HAWKER &amp; NEAL <a href="#ref-hawker2021" role="doc-biblioref">2021</a></span>), foi interpolado pelo método de <em>Krigagem</em> qual o nível da água em cada ponto do mapa partindo da amostragem da eleção nos pontos selecionados <img src="./assets/img/Captura%20de%20tela%202024-07-10%20210039.png" class="img-fluid"></p></li>
+<li><p>Construir a mancha de inundação Conhecendo o nível da água em cada ponto foi possível comparar a altura do ponto, onde a elevação é menor que o nível da água foi considerado como área alagado. <img src="./assets/img/Captura%20de%20tela%202024-07-10%20211719.png" class="img-fluid"> A partir do dado foi elaborado o seguinte mapa, ainda incompleto: <img src="./assets/img/Layout.png" class="img-fluid"> <a href="./assets/pdf/Layout.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p></li>
 </ol>
 <blockquote class="blockquote">
 <p>Este mapa apresenta a <em>Mancha de Inundação Estimada</em> no município de Canoas-RS. Foram utlizadas imagens do satélite <em>Planet</em> e a mancha foi colorida de acordo com o <em>Nível da Água Estimado</em>(tons de azul)</p>
@@ -167,7 +174,7 @@ div.csl-indent {
 </section>
 <section id="mapas-temáticos-da-inundação-3107---2108" class="level2">
 <h2 class="anchored" data-anchor-id="mapas-temáticos-da-inundação-3107---2108">Mapas Temáticos da Inundação (31/07 - 21/08)</h2>
-<p>Foram desenvolvidos alguns mapas durantes essas 3 semanas utilizando os dados que foram produzidos em conjunto com dados de outras fontes como da <em>Defesa Civil</em> e <em>Geodédia da UFRGS</em>. Os mapas todos se focaram na região da <em>Bacia Hidrográfica do Guaíba</em> e foram feitas em escala <em>1:650.000</em></p>
+<p>Foram desenvolvidos alguns mapas durantes essas 3 semanas utilizando os dados que foram produzidos em conjunto com dados de outras fontes como da <em>Defesa Civil</em> e <em>Geodésia da UFRGS</em>. Os mapas todos representaram a região da <em>Bacia Hidrográfica do Guaíba</em> e foram feitas em escala <em>1:650.000</em></p>
 <section id="mapa-de-elevação" class="level3">
 <h3 class="anchored" data-anchor-id="mapa-de-elevação">Mapa de Elevação</h3>
 <p>Utilizando os dados de elevação processados anteriormente foi produzido o seguinte mapa: <img src="./assets/img/Layout2.png" class="img-fluid"> <a href="./assets/pdf/Layout2.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout2.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
@@ -195,7 +202,7 @@ div.csl-indent {
 </section>
 <section id="mapa-de-impacto" class="level3">
 <h3 class="anchored" data-anchor-id="mapa-de-impacto">Mapa de Impacto</h3>
-<p>Por fim foi feito um mapa contendo dados de impactos da inundação na região. Foram utilizados dados do <a href="https://s2id.mi.gov.br/paginas/index.xhtml">S2id</a> do Governo Federal. O meu mapa foi sobre o impacto material na região: <img src="./assets/img/Layout5-1.png" class="img-fluid"> <a href="./assets/pdf/Layout5.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout5-1.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
+<p>Por fim, foi feito um mapa contendo dados de impactos da inundação na região. Foram utilizados dados do <a href="https://s2id.mi.gov.br/paginas/index.xhtml">S2id</a> do Governo Federal. O meu mapa foi sobre o impacto material na região: <img src="./assets/img/Layout5-1.png" class="img-fluid"> <a href="./assets/pdf/Layout5.pdf"><i class="fa-solid fa-file-pdf fa-lg" aria-label="file-pdf"></i></a> <a href="./assets/img/Layout5-1.png"><i class="fa-solid fa-image fa-lg" aria-label="image"></i></a></p>
 <blockquote class="blockquote">
 <p>Este mapa apresenta a <em>Mancha de Inundação</em>(área em roxo) junto do <em>Prejuízo Material Estimado</em>(tons de amarelo e vermelho) para cada município a partir dos dados do <em>S2id</em></p>
 </blockquote>
